@@ -18,6 +18,9 @@ levels.addEventListener("change", function () {
 
 btn.addEventListener("click", function () {
 
+    lose=false;
+    score=0;
+    scoreText.innerHTML="";
 
     grid.innerHTML = "";
 
